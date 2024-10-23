@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport content="width="device-width, initial-scale=1">
+<style>
+    body {font-family: Arial, Helvetica, sans-serif;}
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3;
+
+}
+#myImg:hover {opacity: 0.7;}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    overflow: auto;
+    background-color: aqua;
+    background-color: aquamarine;
+
+}
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+
+}
+#caption {
+    margin: auto;
+    display: block;
+    width: 80px;
+    max-width: 700px;
+    text-align: center;
+    color: antiquewhite;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform: scale(0);}
+    to {-webkit-transform: scale(1);}
+}
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #bbb;
+
+}
+
+.close:hover
+.close:focus{
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){.modal-content{width: 100%;}
+}
+
+</style>
+</head>
+<body>
+    <h2>SCHOOL</h2>
+    <p>Schools of CRT</p>
+<img id="" src="CRT Home pics/Scholarship card.jpg" alt="" style="width: 100%;max-width: 300%;"
+
+ <div class="">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="">
+    <div id="caption"></div>
+</div>
+
+<script>
+    var modal= document.getElementById("myModal");
+    var img= document.getElementById("")
+    var modalImg = document.getElementById("")
+    var captionText = document.getElementById("caption")
+    img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src= this.src;
+        captionText.innerHTML = this.alt;
+    }
+    var span = document.getElementsByClassName("close")
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+</script>
+</body>
+</html>

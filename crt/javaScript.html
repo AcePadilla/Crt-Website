@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        .card{
+        position: absolute;
+        transition: scale(100) ;
+        transition: transform 0.1;
+        cursor: zoom-out;
+        }
+                
+
+        </style>
+        <script>
+            function zoomImage(event) {
+                var image = event.target;
+                 image.classList.toggle("zoomed");
+            }
+        </script>
+    </head>
+    <body>
+        <div class="card">
+            <img src="CRT Home pics/scholarship crt.jpg" alt="Image" onclick="zoomImage(event)">
+            <img src="CRT Home pics/Scholarship card.jpg" alt="Image" onclick="zoomImage(event)">
+        </div>
+    </body>
+</html> 

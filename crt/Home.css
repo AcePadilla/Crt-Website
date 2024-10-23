@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    scroll-behavior: smooth;
+}
+
+    /* Landing Page*/
+
+.landing{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #1877F2 0%, #FAFAFA 83.86%);
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding:20px 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 100px;
+}
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+}
+nav a:after {
+    display:block;
+    content: '';
+    border-bottom: solid 3px white;
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+nav a:hover:after {
+     transform: scaleX(1); 
+}
+.content{
+    width: 60%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index: 3;
+}
+.content h1{
+    font-size: 48px;
+    color:white;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 4.8583px 4.8583px rgba(0, 0, 0, 0.50);
+    z-index: 2;
+}
+.studentpic{
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    z-index: 1;
+    width: 60%;
+}
+.bldg1gapan{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    width: 40%;
+}
+.bldg2cab{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 35%;
+    z-index: 0;
+}
+
+    /*why crt*/
+
+.whycrt{
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #1877F2;
+    padding-bottom: 50px;
+    text-shadow: 0px 4.8583px 4.8583px rgba(0, 0, 0, 0.15);
+}
+
+.container{
+    padding: 15px 8%;
+    padding-bottom: 50px;
+}
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid: 15px;
+    gap: 20px;
+}
+.container .box-container .box{
+    box-shadow: 0 5p 10px rgba(0, 0, 0, 0.2);
+    background-color: #1877F2;
+    text-align: center;
+    padding: 30px 20px;
+
+}
+.container .box-container .box h3{
+    color: #fff;
+    text-shadow: 0px 4.8583px 4.8583px rgba(0, 0, 0, 0.50);
+    font-size: 22px;
+    padding: 2px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container .box-container .box p{
+    color: #fff;
+    text-shadow: 0px 4.8583px 4.8583px rgba(0, 0, 0, 0.30);
+    font-size: 15px;
+    font-family: 'Tahoma';
+    line-height: 1.2;
+    padding: 5px 10px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.box:nth-child(1){
+    background-image:url('CRT Home pics/Guaranteed Quality Education.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box:nth-child(2){
+    background-image:url('crtgapanpic/crt/DSC01030.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box:nth-child(3){
+    background-image:url('CRT Home pics/Air Conditioned Classrooms.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box:nth-child(4){
+    background-image:url('CRT Home pics/IS.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box:nth-child(5){
+    background-image:url('CRT Home pics/SOAF.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box:nth-child(6){
+    background-image:url('CRT Home pics/Accredited Assessment Center.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box:nth-child(7){
+    background-image:url('CRT Home pics/Holistic Development Approach.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box:nth-child(8){
+    background-image:url('CRT Home pics/ATF.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box:nth-child(9){
+    background-image:url('CRT Home pics/AC C.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .5);
+    transform: scale(1.03);
+    transition: all 100ms;
+    cursor: pointer;
+}
+
+    /*Inquire Now!*/
+
+.card h5{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1877F2;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-top: 2px solid #1877F2;
+    text-shadow: 0px 4.8583px 4.8583px rgba(0, 0, 0, 0.15);
+}
+.image img{
+    width:300px;
+    cursor: zoom-in;
+}
+.image-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+      /*footer*/
+
+footer{
+    background-color:#09467D;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+      
+.footerup {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+      
+.footerup img {
+    width: 40px;
+    margin-right: 10px;
+}
+      
+.footerup p {
+    margin: 0;
+    line-height: 1.2;
+    width: 100%;
+}
+      
+.footerdown p {
+    margin: 0;
+    font-size: 14px;
+    border-top: 1px solid white;
+    padding:20px;
+    color: white;
+}
+
+    /*JavaScript Style*/
+
+.card .popup-image {
+    position:fixed; 
+    top: 0;
+    left: 0;
+    background: black;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+.card .popup-image span {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.card .popup-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    object-fit: cover;
+}
+
+.fa{
+    display: none;
+}
+
+
+    /* for pop up image*/
+@media (max-width: 768px) {
+    .container .popup-image img {
+      width: 100%;
+    }
+    .nav-links ul li{
+        display: block;
+        }
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        height: 100vh;
+        width: 200px;
+        top:0;
+        right:-200px;
+        text-align: left;
+        z-index: 5;
+        transition: 1s;
+        }
+    .nav-links a{
+        color: #1877F2;
+    }
+    .fa{
+        display: block;
+        color: white;
+        margin: 10px;
+        width: 20px;
+        cursor: pointer;
+    }
+    .nav-links ul a{
+        padding: 30px;
+        }
+    nav a:after {
+        display:block;
+        content: '';
+        border-bottom: solid 3px #1877F2;
+        transform: scaleX(0);  
+        transition: transform 250ms ease-in-out;
+    }
+    nav a:hover:after {
+        transform: scaleX(1); 
+    }
+  }
+
+
+/* Extra Small Devices (phones) */
+@media only screen and (max-width: 480px) {
+    /* CSS styles for extra small devices */
+.content h1{
+    font-size: 18px;
+}
+.whycrt h2{
+    font-size: 24px;
+}
+.footerdown p{
+        font-size: 8px;
+    }
+}
+  
+  /* Small Devices (portrait tablets and large phones) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    /* CSS styles for small devices */
+.content h1{
+    font-size: 28px;
+}
+.whycrt h2{
+    font-size: 27px;
+}
+.footerdown p{
+        font-size: 10px;
+    }
+}
+  
+  /* Medium Devices (landscape tablets) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* CSS styles for medium devices */
+    .content h1{
+        font-size: 38px;
+    }
+    .whycrt h2{
+        font-size: 37px;
+    }
+    .footerdown p{
+        font-size: 12px;
+    }
+}
+  
+  /* Large Devices (laptops and desktops) */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    /* CSS styles for large devices */
+    .content h1{
+        font-size: 48px;
+    }
+    .whycrt h2{
+        font-size: 48px;
+    }
+    .footerdown p{
+        font-size: 14px;
+    }
+}
+  

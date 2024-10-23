@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>College for Research & Techonology</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Courses.css">
+        <link rel="icon" href="CRT Home pics/CRT.png">
+    </head>
+    <body>
+        <div class="courses">
+            <img class="backpic" src="CRT Home pics/Courses Backpic.jpg">
+            <nav>
+                <img src="CRT Home pics/CRT.png" class="logo" alt="CRT Logo">
+                <div class="nav-links" id="navLinks">
+                    <img class="fa"onclick="hideMenu()" src="CRT Home pics/close.png">
+                    <ul>
+                        <li><a href="Home.html">HOME</a></li>
+                        <li><a href="AboutUs.html">ABOUT US</a></li>
+                        <li><a href="Courses.html">COURSES</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                        <li><a href="https://www.facebook.com/crtcab1988" target="_blank">UPDATES</a></li>
+                    </ul>
+                </div>
+                <img class="fa" src="CRT Home pics/more.png" onclick="showMenu()">
+            </nav>
+            <div class="enroll">
+                    <a href="Enrollment.html">Enroll Now</a>
+            </div>
+            <img class="studentpic" src="CRT Home pics/crtians  - Copy.png">
+        </div>
+        <div class="offered">
+            <div class="college">
+          
+                <h1><img src="CRT Home pics/graduation-toga.png">College</h1>
+                <section class="fouryears">
+                    <h2>4 Years</h2>
+                    <ul>
+                        <button onclick="openModal('BSIT is a four-year degree ladderized program that prepares students to become IT professionals with primary competencies in the areas of systems analysis and design, applications development, database administration, network administration, and systems implementation and maintenance. It likewise deals with the design and development of computer- based information systems for real-world business solutions.')"><li>B.S. in Information Technology</li></button>    
+
+                        <button onclick="openModal('BSAIS is a degree program that provides general accounting education to students wanting to pursue a professional career in Accounting Information System. It is a profession that combines knowledge in business, accounting and computer systems. Graduates of this program qualifies to take assessments leading to certifications in accounting information systems given by global professional Accounting Information System organizations.')"><li>B.S. in Accounting Information System</li></button>
+
+                        <button onclick="openModal('BSHM is a four-year degree ladderized program that covers the process of conception, planning, development, human resource and management of the different aspects of businesses in the hospitality industry. The program provides students with technical skills, as well as knowledge in marketing, finance, budgeting, staffing and other fields of business. The program also aims to teach entrepreneurship skills.')"><li>B.S. in Hospitality Management</li></button>
+
+                        <button onclick="openModal('BSTM is a degree program that delivers education to people who are interested to build a career in the travel and leisure industry involving tourism planning, development, implementation and control management functions. The program professionally trains and equip students with competencies that are needed to execute tasks on tourism planning and development, transportation services, travel and tour services. They are also trained to excel as business managers or entrepreneurs operating their own travel and/orleisure enterprises.')"><li>B.S. in Tourism Management</li></button>
+                    </ul>
+                </section>
+                <section class="twoyears">
+                    <h2>2 Years</h2>
+                    <ul>
+                        <button onclick="openModal('The Associate in Computer Technology program (ACT) provides knowledge and skills in the fundamental of computer programming and basic computation.')"><li>Associate in Computer Technology</li></button>
+                        <button onclick="openModal('This 2-year diploma course is designed to help students learn the principles in hotel operation, housekeeping, food and beverage services and culinary arts.')"><li>Hotel and Restaurant Services</li></button>
+                        <button onclick="openModal('Designed to provide the skills needed to manage a restaurant or food service outlet, this degree puts graduates on the track to manage food service operations, such as those in hospitals, corporate cafeterias, upscale fast food operations and chain restaurants.')"><li>Food Service Management</li></button>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="seniorhigh">
+                <h1><img src="CRT Home pics/graduation-toga.png">Senior High School</h1>
+                <section class="academictrack">
+                    <h2>Academic Track</h2>
+                    <ul>
+                        <button onclick="openModal('Accountancy, Business, and Management (ABM) strand. may be the track for you. This Senior High School strand will introduce you to the fundamentals of business, accounting, marketing, and economics. It will also provide you knowledge and skills in line with the digital.')"><li>Accountancy, Business and Management (ABM)</li></button>
+
+                        <button onclick="openModal('Take the General Academic Strand  Unlike other K to 12 tracks and strands that are specific to a career, GAS gives you the chance to weigh your options. GAS is a Senior High School strand that takes on a generalist approach in preparing students for college.')"><li>General Academic Track (GAS)</li></button>
+
+                        <button onclick="openModal('The Humanities and Social Sciences (HUMSS) strands equip students with a wide range of discipline with the use of their experiences and skills into the investigation and inquiry of human situations by studying its behavior and social changes using empirical, analytical, and critical method techniques.')"><li>Humanities and Social Sciences (HUMSS)</li></button>
+
+                        <button onclick="openModal('Science and Math have always been considered difficult subjects, which means having a strand that is focused on the two is difficult as well.” STEM students are expected to produce several researches that may be quantitative, qualitative, language based or scientific.')"><li>Science, Technology, Engineering & Mathematics (STEM)</li></button>
+                    </ul>
+                </section>
+                <section class="tvl">
+                    <h2>Technical-Vocational-Livelihood</h2>
+                    <ul>
+                        <button onclick="openModal('Utilize information and communication technological tools to contextualize, collaborate, and create experiences for learning like writing computer programs, illustrating, designing, websites and many more.')"><li>Information and Communications Technology (ICT)</li></button>
+                        <button onclick="openModal('Offers various specializations that can lead to livelihood projects at home and give you job-ready skills that can help you in finding the right employment. Courses incudes bartending, bread and pastry, caregiving, cookery, food and beverage, housekeeping, tourism, among others')"><li>Home Economics (HE)</li></button>
+                        <button onclick="openModal('This strand follows the TESDA curriculum to gain skills and knowledge on electronics repair, electrical installation, computer system servicing among others.')"><li>Industrial Arts Strand (IA)</li></button>
+                    </ul>
+                </section>
+            </div>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                  <span class="close" onclick="closeModal()">&times;</span>
+                  <p id="modalText"></p>
+                </div>
+              </div>
+        </div>
+        <footer>
+            <section class="footerup">
+                    <img src="CRT Home pics/CRT.png" alt="CRT Logo">
+                    <p>College for Research<br> & Technology Site</p>
+                </div>
+            </section>    
+            <section class="footerdown">
+                <p>© 2023 College for Research & Technology | All rights  reserved | Site by Teamlay</p>
+            </section>
+
+        </footer>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+
+            function openModal(text) {
+            var modal = document.getElementById("myModal");
+            var modalText = document.getElementById("modalText");
+            modalText.textContent = text;
+            modal.style.display = "block";
+            }
+
+            function closeModal() {
+            var modal = document.getElementById("myModal");
+            modal.style.display = "none";
+            }
+            
+        </script>
+    </body>
+</html>

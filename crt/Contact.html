@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>College for Research & Techonology</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Contact.css">
+        <link rel="icon" href="CRT Home pics/CRT.png">
+    </head>
+    <body>
+        <div class="contactus">
+            <nav>
+                <img src="CRT Home pics/CRT.png" class="logo" alt="CRT Logo">
+                <div class="nav-links" id="navLinks">
+                    <img class="fa"onclick="hideMenu()" src="CRT Home pics/close.png">
+                    <ul>
+                        <li><a href="Home.html">HOME</a></li>
+                        <li><a href="AboutUs.html">ABOUT US</a></li>
+                        <li><a href="Courses.html">COURSES</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                        <li><a href="https://www.facebook.com/crtcab1988" target="_blank">UPDATES</a></li>
+                    </ul>
+                </div>
+                <img class="fa" src="CRT Home pics/more.png" onclick="showMenu()">
+            </nav>
+            <div class="call">
+                    <a href="#crtcampus">Contact Us</a>
+            </div>
+           
+        </div>
+
+        <main>
+            <h1>College for Research & Techonology</h1>
+
+            <div class="imageContainer">
+                <img class="mapImage" src="CRT Home pics/delpilar.png" alt="CRT Delpilar">
+                <img class="mapImage" src="CRT Home pics/cab.png" alt="CRT Cabanatuan">
+                <img class="mapImage" src="CRT Home pics/gapan.png" alt="CRT Gapan">
+                <img class="mapImage" src="CRT Home pics/guimba.png" alt="CRT Guimba">
+                <img class="mapImage" src="CRT Home pics/sanjose.png" alt="CRT San Jose">
+            </div>
+            <div id="mapContainer">
+                <iframe id="googleMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3844.9121734380533!2d120.96208777766623!3d15.48915561633542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33972e955348cf89%3A0x8a1d57bc0e712e17!2sCollege%20for%20Research%20and%20Technology%20of%20Cabanatuan!5e0!3m2!1sen!2sph!4v1686490946028!5m2!1sen!2sph"></iframe>
+            </div>
+            
+
+            <h3 id="crtcampus">CRT Campuses</h3>
+
+            <section class="row">
+                <div class="campus-col">
+                    <img src="CRT Home pics/800px-9767ajfCollege_Research_Technology_Cabanatuan_Cityfvf_09.jpg" alt="CRT Cabanatuan Campus">
+                    <div class="layer">
+                        <a href="https://www.facebook.com/crtcab1988" target="_blank">Cabanatuan</a>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="CRT Home pics/CRT GAPAN CAMPUS.jpg">
+                    <div class="layer" alt="CRT Gapan Campus">
+                        <a href="https://www.facebook.com/CRTGapan" target="_blank">Gapan</a>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="CRT Home pics/CRT CAMPUS SAN JOSE.jpg">
+                    <div class="layer" alt="CRT San Jose Campus">
+                        <a href="https://www.facebook.com/profile.php?id=100064621964815" target="_blank">San Jose</a>
+                    </div>
+                </div>
+            
+            </section>
+            
+            <section class="info">
+                <div class="info-container">
+                    <img src="CRT Home pics/placeholder.png">
+                    <h2>Gapan Campus</h2>
+                    <address>7WWX+R82, Pan-Philippine<br> Hwy, Gapan City, Nueva Ecija</address>
+                </div>
+                <div class="info-container">
+                    <img src="CRT Home pics/mail.png">
+                    <h2>E-mail Address</h2>
+                    <p>crt.gapan@gmail.com</p>
+                </div>
+                <div class="info-container">
+                    <img src="CRT Home pics/facebook.png">
+                    <h2>Socials</h2>
+                    <a href="https://www.facebook.com/CRTGapan">facebook.com/CRTGapan</a>
+                </div>
+                <div class="info-container">
+                    <img src="CRT Home pics/call.png">
+                    <h2>Contact Number</h2>
+                    <p>(044)-463-2735</p>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <section class="footerup">
+                    <img src="CRT Home pics/CRT.png" alt="CRT Logo">
+                    <p>College for Research<br> & Technology Site</p>
+                </div>
+            </section>    
+            <section class="footerdown">
+                <p>© 2023 College for Research & Technology | All rights  reserved | Site by Teamlay</p>
+            </section>
+
+        </footer>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+
+            var mapLinks = {
+            "CRT Home pics/gapan.png": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d882.2651241892787!2d120.94808535001735!3d15.296794131003788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397212aef07ab09%3A0x9a6eee4367407d46!2sCollege%20for%20Research%20and%20Technology%20-%20Gapan%20Campus!5e0!3m2!1sen!2sph!4v1686491037567!5m2!1sen!2sph",
+            "CRT Home pics/cab.png":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d480.6139269559905!2d120.96735968500387!3d15.489196365206752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33972e955348cf89%3A0x8a1d57bc0e712e17!2sCollege%20for%20Research%20and%20Technology%20of%20Cabanatuan!5e0!3m2!1sen!2sph!4v1686537502523!5m2!1sen!2sph",
+            "CRT Home pics/guimba.png": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3841.770115610211!2d120.76607597422141!3d15.657225350337692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33912cdca5dc1571%3A0xf7af367e2b5120c2!2sCollege%20for%20Research%20and%20Technology!5e0!3m2!1sen!2sph!4v1686491848629!5m2!1sen!2sph",
+            "CRT Home pics/delpilar.png": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d339.8430137858881!2d120.96662631052297!3d15.490627865339214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33972921884c36ef%3A0x4bc8c8bac9b34590!2sCollege%20Of%20Research%20And%20Technology%20-%20Nabao!5e0!3m2!1sen!2sph!4v1686491770259!5m2!1sen!2sph",
+            "CRT Home pics/sanjose.png": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61429.07652373276!2d120.9198188781738!3d15.787215457226939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3390da1c5d549369%3A0x1fe2fd0490200467!2sCollege%20for%20Research%20and%20Technology!5e0!3m2!1sen!2sph!4v1686491811348!5m2!1sen!2sph"
+            };
+
+            function changeMapLink(image) {
+            var googleMap = document.getElementById("googleMap");
+            googleMap.src = mapLinks[image];
+            googleMap.style.display = "block";
+            }
+            var mapImages = document.getElementsByClassName("mapImage");
+            for (var i = 0; i < mapImages.length; i++) {
+            mapImages[i].addEventListener("click", function() {
+            var image = this.getAttribute("src");
+            changeMapLink(image);
+            });
+            }
+        </script>
+    </body>
+</html>

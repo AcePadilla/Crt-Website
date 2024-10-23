@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+  .landing {
+    position: relative;
+    height: 720px;
+    max-width: 1440px;
+    background: linear-gradient(180deg, #1877F2 0%, #FAFAFA 83.86%);
+  }
+  
+  .logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 20px;
+    top: 20px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.6335px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-shadow: 0px 2.89855px 2.89855px rgba(0, 0, 0, 0.25);
+  }
+  
+  .navigation a:nth-child(1) {
+    position: absolute;
+    width: 50px;
+    height: 23px;
+    right: 537px;
+    top: 55px;
+  }
+  
+  .navigation a:nth-child(2) {
+    position: absolute;
+    width: 76px;
+    height: 23px;
+    right: 403px;
+    top: 55px;
+  }
+  
+  .navigation a:nth-child(3) {
+    position: absolute;
+    width: 66px;
+    height: 23px;
+    right: 281px;
+    top: 55px;
+  }
+  
+  .navigation a:nth-child(4) {
+    position: absolute;
+    width: 67px;
+    height: 23px;
+    right: 157px;
+    top: 55px;
+  }
+  
+  .navigation a:nth-child(5) {
+    position: absolute;
+    width: 44px;
+    height: 23px;
+    right: 56px;
+    top: 55px;
+  }
+  
+  h1 {
+    position: absolute;
+    width: 600px;
+    height: 132px;
+    left: calc(50% - 600px/2);
+    top: calc(50% - 132px/2 - 73px);
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 49.9865px;
+    line-height: 66px;
+    text-align: center;
+    color: #F3F3F3;
+    text-shadow: 0px 3.73913px 3.73913px rgba(0, 0, 0, 0.75);
+  }
+  
+  .pics img:nth-child(1) {
+    position: absolute;
+    width: 806px;
+    height: 376.56px;
+    left: calc(50% - 806px/2 + 31px);
+    bottom: -0.56px;
+    z-index: 1;
+  }
+  
+  .pics img:nth-child(2) {
+    position: absolute;
+    height: 351.98px;
+    left: 0px;
+    right: 744px;
+    top: 368px;
+  }
+  
+  .pics img:nth-child(3) {
+    position: absolute;
+    height: 448.7px;
+    left: 839px;
+    right: 0px;
+    top: 272px;
+  }
+  
+  #whycrt {
+    position: absolute;
+    max-width: 1440px;
+    height: 1440px;
+    left: 0px;
+    top: 720px;
+    background: #FAFAFA;
+  }
+  
+  h2 {
+    position: absolute;
+    width: 641px;
+    height: 110px;
+    left: calc(50% - 641px/2);
+    top: 848px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40.2116px;
+    line-height: 55px;
+    text-align: center;
+    color: #333333;
+  }
+  
+  .container img {
+    filter: brightness(0.5);
+    position: absolute;
+    width: 424px;
+    height: 424px;
+    left: calc(50% - 424px/2);
+    top: 1006px;
+  }
+  
+  .scholar h1 {
+    position: absolute;
+    width: 600px;
+    height: 132px;
+    left: calc(50% - 600px/2);
+    top: 1454px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 49.9865px;
+    line-height: 66px;
+    text-align: center;
+    color: #F3F3F3;
+    text-shadow: 0px 3.73913px 3.73913px rgba(0, 0, 0, 0.75);
+  }
+  
+  .card :nth-child(1) {
+    position: absolute;
+    width: 346px;
+    height: 480px;
+    left: calc(50% - 346px/2 - 600px);
+    top: 1624px;
+  }
+  
+  .card :nth-child(2) {
+    position: absolute;
+    width: 346px;
+    height: 480px;
+    left: calc(50% - 346px/2);
+    top: 1624px;
+  }
+  
+  .card :nth-child(3) {
+    position: absolute;
+    width: 346px;
+    height: 480px;
+    left: calc(50% - 346px/2 + 600px);
+    top: 1624px;
+  }
+  
+  .footer {
+    position: relative;
+    max-width: 1440px;
+    height: 262px;
+    left: 0px;
+    top: 2104px;
+    background: #333333;
+  }
+  

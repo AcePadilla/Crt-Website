@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1877F2;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .container h1 {
+            text-align: center;
+            color: #1877F2;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .inputformat {
+            width: 100%;
+            padding: 12px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .container h2 {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .container h3 {
+            font-size: 14px;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        .container p3 {
+            font-size: 14px;
+            margin: 0;
+            color: #555;
+        }
+
+        .container button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background-color: #1877F2;
+            border: none;
+            color: #fff;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+        }
+
+        .container button:hover {
+            background-color: #09467D;
+        }
+
+        .clearfix a{
+            color: white;
+            text-decoration: none;
+        }
+
+        .goback button a{
+            color: #1877F2;
+            font-size: 12px;
+            text-decoration: none;
+        }
+        .goback button{
+            background-color: white;
+            border: none;
+          
+        }
+        .goback button:hover{
+            background-color: white;
+        }
+        
+
+        @media screen and (max-width: 600px) {
+            .inputformat, button {
+                max-width: 100%;
+                margin-top: 0;
+            }
+        }
+        </style>
+    </head>
+    <body>
+       
+    <div class="container">
+                <h1>Final Requirement</h1> 
+                <br>
+                <br>
+                <select class="inputformat" name="Enrollers">
+                    <option>Enrolling</option>
+                    <option>Transfering</option>
+                    <option>New Commers</option>
+                </select>
+            
+                <h1>Select year level</h1>
+            
+                <select class="inputformat" name="level" required>
+                    <option>-</option>
+                    <option>G 11</option>
+                    <option>G 12</option>
+                    <option>1st year</option>
+                    <option>2nd year</option>
+                    <option>3rd year</option>
+                    <option>4th year</option>
+                </select>
+                <h2>G11 & G12</h2>
+                <select class="inputformat" name="shs" required>
+                    <option>-</option>
+                    <option>Accountancy, Business and Management (ABM)</option>
+                    <option>General Academic Track (GAS)</option>
+                    <option>Humanities and Social Sciences (HUMSS)</option>
+                    <option>Science, Technology, Engineering & Mathematics (STEM)</option>
+                    <option>Information and Communications Technology (ICT)</option>
+                    <option>Home Economics (HE)</option>    
+                    <option>Industrial Arts Strand (IA)</option>    
+                </select>
+            
+                <h3> College Courses </h3>   
+                <p3>2 years:</p3>
+                <select class="inputformat" name="4years">
+                    <option>-</option>
+                    <option>Associate in Computer Technology</option>
+                    <option>Hotel and Restaurant Services</option>
+                    <option>Food Service Management</option>
+                </select>   
+                <p3>4 years:</p3>
+                <select class="inputformat" name="2years">
+                    <option>-</option>
+                    <option>B.S. in Information Technology</option>
+                    <option>B.S. in Accounting Information System</option>
+                    <option>B.S. in Hospitality Management</option>
+                    <option>B.S. in Tourism Management</option>
+                </select>   
+                <div class="clearfix">
+                    <button type="submit" class="signupbtn"><a href="Contact.html">Submit</a></button>    
+                </div>
+                
+                <div class="goback">
+                    <button><a href="Enrollment.html">Go Back</a></button>
+                </div>
+        </div>
+    </body>
+</html>

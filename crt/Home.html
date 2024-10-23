@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>College for Research & Techonology</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Home.css">
+        <link rel="icon" href="CRT Home pics/CRT.png">
+    </head>
+    <body>
+        <div class="landing">
+            <nav>
+                <img src="CRT Home pics/CRT.png" class="logo" alt="CRT Logo">
+                <div class="nav-links" id="navLinks">
+                    <img class="fa"onclick="hideMenu()" src="CRT Home pics/close.png">
+                    <ul>
+                        <li><a href="Home.html">HOME</a></li>
+                        <li><a href="AboutUs.html">ABOUT US</a></li>
+                        <li><a href="Courses.html">COURSES</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                        <li><a href="https://www.facebook.com/crtcab1988" target="_blank">UPDATES</a></li>
+                    </ul>
+                </div>
+                <img class="fa" src="CRT Home pics/more.png" onclick="showMenu()">
+            </nav>
+            <div class="content">
+                <h1>WELCOME TO COLLEGE FOR RESEARCH & TECHNOLOGY</h1>
+            </div>
+            <img class="studentpic" src="CRT Home pics/crtians  - Copy.png" alt="Picture of Students">
+            <img class="bldg1gapan" src="CRT Home pics/crt bldg gapan.png" alt="CRT Gapan Building">
+            <img class="bldg2cab" src="CRT Home pics/crt cab bldg.png" alt="CRT Cabanatuan Building">
+        </div>
+
+        <div class="whycrt">
+            <main>
+                <div class="container">
+
+                    <h2>Why Students enroll at CRT?</h2>
+
+                    <div class="box-container">
+
+                        <div class="box">
+                            <h3>Guaranteed Quality Education</h3>
+                            <p> All courses are recognized by the CHED, TESDA, and DepEd. The students are assured of the standards set by the government for the curriculum, facilities and the like.</p>
+                         
+                        </div>
+
+                        <div class="box">
+                            <h3>Wifi-Zone Campus
+                                with Virtual Library</h3>
+                            <p>Other than books available, its has computers with internet access and students can avail of free WiFi connectivity powered by CRT globe GoWiFi and CRT Smart Free WiFI.</p>
+            
+                        </div>
+
+                        <div class="box">
+                            <h3>Air-Conditioned Classrooms</h3>
+                            <p>The laboratory facilities are updated and upgraded from time to time to keep abreast with the ever-changing development in technology. All the laboratories use the standards set for college courses.</p>
+                    
+                        </div>
+      
+                        <div class="box">
+                            <h3>Industry Support</h3>
+                            <p>Other that classroom training, students undergo On-the-Job Training (OJT) in the private or government institutions to better equip them to become highly competitive professionals.</p>
+                        
+                        </div>
+            
+                        <div class="box">
+                            <h3>State-of-the-art Facilities</h3>
+                            <p>CRT provides an environment conducive to learning. Both the instructors and the students maximize their face-to-face interactions and learning with a cozy environment.</p>
+                    
+                        </div>
+        
+                        <div class="box">
+                            <h3>Accredited
+                                Assessment Center</h3>
+                            <p>CRT is  accredited assessment center for Hospitality, Tourism, Computer, and Education Competency Requirement.</p>
+                
+                        </div>
+
+                        <div class="box">
+                            <h3>Holistic Development Approach</h3>
+                            <p>At CRT, we believe that both skills and values should be honed hand in hand to mold a more responsible and competent person. Total development of a person is our concern.</p>
+                        
+                        </div>
+        
+                        <div class="box">
+                            <h3>Affordable Tuition<br> Fee</h3>
+                            <p>Above all, quality education is provided with affordable tuition fees no other college of our class can offer.</p>
+                        
+                        </div>
+    
+                        <div class="box">
+                            <h3>Competency Based Training</h3>
+                            <p>The students are being prepared to gain competency required to pass Competency Assessment for National Certification and Eligibility.</p>
+                        
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <h5>Annoncements</h5>
+                    <div class="image-container">
+                        <div class="image"><img src="CRT Home pics/Scholarship card.jpg" alt="Scholarship Image" /></div>
+                        <div class="image"><img src="CRT Home pics/scholarship crt.jpg" alt="Scholarship Image" /></div>
+                        <div class="image"><img src="CRT Home pics/Card crt 1.png" alt="Id qr code" /></div>
+                    
+                        <div class="popup-image">
+                            <span>&times;</span>
+                            <img src="" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+      
+        <footer>
+                <section class="footerup">
+                        <img src="CRT Home pics/CRT.png" alt="CRT Logo">
+                        <p>College for Research<br> & Technology Site</p>
+                </section>    
+                <section class="footerdown">
+                    <p>© 2023 College for Research & Technology | All rights  reserved | Site by Teamlay</p>
+                </section>
+        </footer>
+
+        <script>
+
+            document.querySelectorAll(".image img").forEach(image => {
+            image.onclick = () => {
+            document.querySelector(".popup-image").style.display = "block";
+            document.querySelector(".popup-image img").src =
+            image.getAttribute("src");
+            };
+            });
+
+            document.querySelector(".popup-image span").onclick = () => {
+            document.querySelector(".popup-image").style.display = "none";
+            };
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
